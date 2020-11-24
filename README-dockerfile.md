@@ -5,7 +5,7 @@ Derived from the base [jrottenberg/ffmpeg](https://hub.docker.com/r/jrottenberg/
 ## Build image
 
 ```
-docker build -t rupakg/docker-ffmpeg-thumb .
+docker build -t docker-ffmpeg-thumb .
 ```
 
 ## Run
@@ -15,7 +15,7 @@ docker run -v /local/path:/tmp/workdir \
     -e INPUT_VIDEO_FILE_URL='your-video-file-url' \
     -e POSITION_TIME_DURATION='position-of-frame-in-video' \
     -e OUTPUT_VIDEO_FILE_NAME='output.png' \
-    rupakg/docker-ffmpeg-thumb
+    docker-ffmpeg-thumb
 
 ```
 After running the above command, the thumbnail image `output.png` will be created in the mounted `/local/path`.

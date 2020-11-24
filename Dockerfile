@@ -1,5 +1,4 @@
 FROM jrottenberg/ffmpeg
-LABEL maintainer="Rupak Ganguly <rupakg@gmail.com>"
 
 RUN apt-get update && \
     apt-get install python-dev python-pip -y && \
