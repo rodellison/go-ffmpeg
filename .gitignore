@@ -26,3 +26,4 @@ vendor
 *.png
 
 docker-compose*
+.git
