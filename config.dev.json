@@ -1,0 +1,11 @@
+{
+  "region": "us-east-1",
+  "bucket": "content.rodellison.videos",
+  "thumbnails_folder": "thumbnails",
+  "ecsTaskName": "ffmpeg-thumb-task-definition",
+  "containerOverrideName": "ffmpeg-thumb",
+  "ecsTaskVpcSubnet1": "subnet-0b04637a007c13cd5",
+  "ecsTaskVpcSubnet2": "subnet-09d7e9cc59e2f3cbc",
+  "clusterName": "rodellison-ffmpeg-cluster",
+  "ecsTaskExecutionRole": "RodEllison-ECS-EC2"
+}
